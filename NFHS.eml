@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="dom4j-1.6.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/dom4j-1.6.1.jar!/"/>
+	</lib>
+	<lib name="guice-3.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/guice-3.0.jar!/"/>
+	</lib>
+	<lib name="xslt.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/xslt.jar!/"/>
+	</lib>
+	<lib name="xmlbeans-2.4.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/xmlbeans-2.4.0.jar!/"/>
+	</lib>
+	<lib name="testng-6.8.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/testng-6.8.7.jar!/"/>
+	</lib>
+	<lib name="selenium-java-client-driver.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/selenium-java-client-driver.jar!/"/>
+	</lib>
+	<lib name="selenium-server-standalone-2.41.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/selenium-server-standalone-2.41.0.jar!/"/>
+	</lib>
+	<lib name="SaxonLiaison.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/SaxonLiaison.jar!/"/>
+	</lib>
+	<lib name="saxon-8.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/saxon-8.7.jar!/"/>
+	</lib>
+	<lib name="poi-scratchpad-3.10-FINAL-20140208.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/poi-scratchpad-3.10-FINAL-20140208.jar!/"/>
+	</lib>
+	<lib name="poi-ooxml-schemas-3.10-FINAL-20140208.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/poi-ooxml-schemas-3.10-FINAL-20140208.jar!/"/>
+	</lib>
+	<lib name="poi-ooxml-3.10-FINAL-20140208.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/poi-ooxml-3.10-FINAL-20140208.jar!/"/>
+	</lib>
+	<lib name="poi-excelant-3.10-FINAL-20140208.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/poi-excelant-3.10-FINAL-20140208.jar!/"/>
+	</lib>
+	<lib name="poi-examples-3.10-FINAL-20140208.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/poi-examples-3.10-FINAL-20140208.jar!/"/>
+	</lib>
+	<lib name="log4j-1.2.15.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/log4j-1.2.15.jar!/"/>
+	</lib>
+	<lib name="poi-3.10-FINAL-20140208.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/poi-3.10-FINAL-20140208.jar!/"/>
+	</lib>
+	<lib name="itext-2.1.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jar/itext-2.1.7.jar!/"/>
+	</lib>
+</component>

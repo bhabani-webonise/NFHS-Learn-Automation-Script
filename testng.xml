@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <parameter name="browser" value="chrome"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10"/>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <!--<test name="Test2">
+  <classes>
+    <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup"/>
+  </classes>
+  </test>
+
+  <test name="Test3">
+    <classes>
+      <class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1"/>
+    </classes>
+  </test>-->
+</suite> <!-- Suite -->

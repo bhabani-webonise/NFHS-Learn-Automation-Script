@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Account Information Edit" verbose="3">
+	<test name="Profile Edit-1">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.MyAccountSuite.ProfileInfoEdit1"/>
+			</classes>
+	</test>
+
+</suite>
