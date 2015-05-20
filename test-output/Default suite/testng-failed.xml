@@ -3,12 +3,17 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.NFHS.Purchase.PurchaseOrder">
+      <class name="com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1">
         <methods>
-          <include name="purchaseFlow"/>
-          <include name="launchBrowser"/>
+          <include name="isTestSkipped"/>
+          <include name="reportTestCaseResult"/>
+          <include name="profileEdit" invocation-numbers="0"/>
+          <include name="isSuiteSkipped"/>
+          <include name="launch_Browser"/>
+          <include name="reportSuiteResult"/>
+          <include name="reporter"/>
         </methods>
-      </class> <!-- com.NFHS.Purchase.PurchaseOrder -->
+      </class> <!-- com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,604 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="14" passed="14">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="ForgotPassword" duration-ms="444279" started-at="2015-04-09T14:42:54Z" finished-at="2015-04-09T14:50:18Z">
+  <suite name="Default suite" duration-ms="54740" started-at="2015-05-19T18:12:20Z" finished-at="2015-05-19T18:13:15Z">
     <groups>
     </groups>
-    <test name="ForgotPassword-1" duration-ms="23982" started-at="2015-04-09T14:42:54Z" finished-at="2015-04-09T14:43:18Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@7a37d046]" name="isTestSkipped" is-config="true" duration-ms="592" started-at="2015-04-09T20:12:54Z" finished-at="2015-04-09T20:12:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@7a37d046]" name="launch_Browser" is-config="true" duration-ms="1832" started-at="2015-04-09T20:12:55Z" finished-at="2015-04-09T20:12:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_1()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@7a37d046]" name="forgot_Password_1" duration-ms="18594" started-at="2015-04-09T20:12:56Z" finished-at="2015-04-09T20:13:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_1 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@7a37d046]" name="reporter" is-config="true" duration-ms="2557" started-at="2015-04-09T20:13:15Z" finished-at="2015-04-09T20:13:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@7a37d046]" name="reportTestCaseResult" is-config="true" duration-ms="396" started-at="2015-04-09T20:13:18Z" finished-at="2015-04-09T20:13:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1 -->
-    </test> <!-- ForgotPassword-1 -->
-    <test name="ForgotPassword-2" duration-ms="27909" started-at="2015-04-09T14:43:18Z" finished-at="2015-04-09T14:43:46Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@53395472]" name="isTestSkipped" is-config="true" duration-ms="313" started-at="2015-04-09T20:13:18Z" finished-at="2015-04-09T20:13:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@53395472]" name="launch_Browser" is-config="true" duration-ms="1593" started-at="2015-04-09T20:13:18Z" finished-at="2015-04-09T20:13:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_2()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@53395472]" name="forgot_Password_2" duration-ms="23162" started-at="2015-04-09T20:13:20Z" finished-at="2015-04-09T20:13:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_2 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@53395472]" name="reporter" is-config="true" duration-ms="2521" started-at="2015-04-09T20:13:43Z" finished-at="2015-04-09T20:13:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@53395472]" name="reportTestCaseResult" is-config="true" duration-ms="318" started-at="2015-04-09T20:13:46Z" finished-at="2015-04-09T20:13:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2 -->
-    </test> <!-- ForgotPassword-2 -->
-    <test name="ForgotPassword-3" duration-ms="59880" started-at="2015-04-09T14:43:46Z" finished-at="2015-04-09T14:44:46Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@8461829]" name="isTestSkipped" is-config="true" duration-ms="407" started-at="2015-04-09T20:13:46Z" finished-at="2015-04-09T20:13:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@8461829]" name="launch_Browser" is-config="true" duration-ms="1550" started-at="2015-04-09T20:13:47Z" finished-at="2015-04-09T20:13:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_3(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@8461829]" name="forgot_Password_3" duration-ms="28487" started-at="2015-04-09T20:13:48Z" data-provider="forgot_Password3_Test_Data" finished-at="2015-04-09T20:14:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1@gmail]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_3 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@8461829]" name="reporter" is-config="true" duration-ms="2531" started-at="2015-04-09T20:14:17Z" finished-at="2015-04-09T20:14:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@8461829]" name="launch_Browser" is-config="true" duration-ms="1559" started-at="2015-04-09T20:14:19Z" finished-at="2015-04-09T20:14:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_3(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@8461829]" name="forgot_Password_3" duration-ms="22141" started-at="2015-04-09T20:14:21Z" data-provider="forgot_Password3_Test_Data" finished-at="2015-04-09T20:14:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1@yopmail]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_3 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@8461829]" name="reporter" is-config="true" duration-ms="2678" started-at="2015-04-09T20:14:43Z" finished-at="2015-04-09T20:14:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@8461829]" name="reportTestCaseResult" is-config="true" duration-ms="191" started-at="2015-04-09T20:14:46Z" finished-at="2015-04-09T20:14:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3 -->
-    </test> <!-- ForgotPassword-3 -->
-    <test name="ForgotPassword-4" duration-ms="31934" started-at="2015-04-09T14:44:46Z" finished-at="2015-04-09T14:45:18Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@2675ace1]" name="isTestSkipped" is-config="true" duration-ms="304" started-at="2015-04-09T20:14:46Z" finished-at="2015-04-09T20:14:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@2675ace1]" name="launch_Browser" is-config="true" duration-ms="1468" started-at="2015-04-09T20:14:46Z" finished-at="2015-04-09T20:14:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_4(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@2675ace1]" name="forgot_Password_4" duration-ms="27222" started-at="2015-04-09T20:14:48Z" data-provider="forgot_Password4_Test_Data" finished-at="2015-04-09T20:15:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user5@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_4 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@2675ace1]" name="reporter" is-config="true" duration-ms="2639" started-at="2015-04-09T20:15:15Z" finished-at="2015-04-09T20:15:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@2675ace1]" name="reportTestCaseResult" is-config="true" duration-ms="129" started-at="2015-04-09T20:15:18Z" finished-at="2015-04-09T20:15:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4 -->
-    </test> <!-- ForgotPassword-4 -->
-    <test name="ForgotPassword-5" duration-ms="42829" started-at="2015-04-09T14:45:18Z" finished-at="2015-04-09T14:46:01Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@213651ed]" name="isTestSkipped" is-config="true" duration-ms="189" started-at="2015-04-09T20:15:18Z" finished-at="2015-04-09T20:15:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@213651ed]" name="launch_Browser" is-config="true" duration-ms="1488" started-at="2015-04-09T20:15:18Z" finished-at="2015-04-09T20:15:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_5(java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@213651ed]" name="forgot_Password_5" duration-ms="37932" started-at="2015-04-09T20:15:20Z" data-provider="forgot_Password5_Test_Data" finished-at="2015-04-09T20:15:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[email@weboapps.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[weboqa6186]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_5 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@213651ed]" name="reporter" is-config="true" duration-ms="2893" started-at="2015-04-09T20:15:58Z" finished-at="2015-04-09T20:16:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@213651ed]" name="reportTestCaseResult" is-config="true" duration-ms="118" started-at="2015-04-09T20:16:01Z" finished-at="2015-04-09T20:16:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5 -->
-    </test> <!-- ForgotPassword-5 -->
-    <test name="ForgotPassword-7" duration-ms="40497" started-at="2015-04-09T14:46:01Z" finished-at="2015-04-09T14:46:41Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5a538af7]" name="isTestSkipped" is-config="true" duration-ms="202" started-at="2015-04-09T20:16:01Z" finished-at="2015-04-09T20:16:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5a538af7]" name="launch_Browser" is-config="true" duration-ms="1663" started-at="2015-04-09T20:16:01Z" finished-at="2015-04-09T20:16:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_7(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5a538af7]" name="forgot_Password_7" duration-ms="35311" started-at="2015-04-09T20:16:03Z" data-provider="forgot_Password7_Test_Data" finished-at="2015-04-09T20:16:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[email@weboapps.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[weboqa6186]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[test1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_7 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5a538af7]" name="reporter" is-config="true" duration-ms="2930" started-at="2015-04-09T20:16:38Z" finished-at="2015-04-09T20:16:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5a538af7]" name="reportTestCaseResult" is-config="true" duration-ms="123" started-at="2015-04-09T20:16:41Z" finished-at="2015-04-09T20:16:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7 -->
-    </test> <!-- ForgotPassword-7 -->
-    <test name="ForgotPassword-8" duration-ms="50835" started-at="2015-04-09T14:46:41Z" finished-at="2015-04-09T14:47:32Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@150b51f4]" name="isTestSkipped" is-config="true" duration-ms="174" started-at="2015-04-09T20:16:41Z" finished-at="2015-04-09T20:16:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@150b51f4]" name="launch_Browser" is-config="true" duration-ms="1555" started-at="2015-04-09T20:16:42Z" finished-at="2015-04-09T20:16:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_8(java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@150b51f4]" name="forgot_Password_8" duration-ms="46231" started-at="2015-04-09T20:16:43Z" data-provider="forgot_Password8_Test_Data" finished-at="2015-04-09T20:17:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[email@weboapps.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[weboqa6186]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_8 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@150b51f4]" name="reporter" is-config="true" duration-ms="2537" started-at="2015-04-09T20:17:29Z" finished-at="2015-04-09T20:17:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@150b51f4]" name="reportTestCaseResult" is-config="true" duration-ms="116" started-at="2015-04-09T20:17:32Z" finished-at="2015-04-09T20:17:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8 -->
-    </test> <!-- ForgotPassword-8 -->
-    <test name="ForgotPassword-9" duration-ms="18581" started-at="2015-04-09T14:47:32Z" finished-at="2015-04-09T14:47:51Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@1caa270d]" name="isTestSkipped" is-config="true" duration-ms="155" started-at="2015-04-09T20:17:32Z" finished-at="2015-04-09T20:17:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@1caa270d]" name="launch_Browser" is-config="true" duration-ms="1497" started-at="2015-04-09T20:17:32Z" finished-at="2015-04-09T20:17:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_9(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@1caa270d]" name="forgot_Password_9" duration-ms="15198" started-at="2015-04-09T20:17:34Z" data-provider="forgot_Password9_Test_Data" finished-at="2015-04-09T20:17:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[email@weboapps.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[weboqa6186]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_9 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@1caa270d]" name="reporter" is-config="true" duration-ms="1370" started-at="2015-04-09T20:17:49Z" finished-at="2015-04-09T20:17:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@1caa270d]" name="reportTestCaseResult" is-config="true" duration-ms="110" started-at="2015-04-09T20:17:50Z" finished-at="2015-04-09T20:17:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9 -->
-    </test> <!-- ForgotPassword-9 -->
-    <test name="ForgotPassword-10" duration-ms="18392" started-at="2015-04-09T14:47:51Z" finished-at="2015-04-09T14:48:09Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@4c48d0c9]" name="isTestSkipped" is-config="true" duration-ms="156" started-at="2015-04-09T20:17:51Z" finished-at="2015-04-09T20:17:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@4c48d0c9]" name="launch_Browser" is-config="true" duration-ms="1445" started-at="2015-04-09T20:17:51Z" finished-at="2015-04-09T20:17:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_10(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@4c48d0c9]" name="forgot_Password_10" duration-ms="13773" started-at="2015-04-09T20:17:52Z" data-provider="forgot_Password10_Test_Data" finished-at="2015-04-09T20:18:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[email@weboapps.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[weboqa6186]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[test1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_10 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@4c48d0c9]" name="reporter" is-config="true" duration-ms="2731" started-at="2015-04-09T20:18:06Z" finished-at="2015-04-09T20:18:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@4c48d0c9]" name="reportTestCaseResult" is-config="true" duration-ms="102" started-at="2015-04-09T20:18:09Z" finished-at="2015-04-09T20:18:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10 -->
-    </test> <!-- ForgotPassword-10 -->
-    <test name="ForgotPassword-11" duration-ms="18800" started-at="2015-04-09T14:48:09Z" finished-at="2015-04-09T14:48:28Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@3d2ca4ef]" name="isTestSkipped" is-config="true" duration-ms="134" started-at="2015-04-09T20:18:09Z" finished-at="2015-04-09T20:18:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@3d2ca4ef]" name="launch_Browser" is-config="true" duration-ms="1087" started-at="2015-04-09T20:18:09Z" finished-at="2015-04-09T20:18:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_11(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@3d2ca4ef]" name="forgot_Password_11" duration-ms="14349" started-at="2015-04-09T20:18:10Z" data-provider="forgot_Password11_Test_Data" finished-at="2015-04-09T20:18:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[email@weboapps.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[weboqa6186]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_11 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@3d2ca4ef]" name="reporter" is-config="true" duration-ms="2946" started-at="2015-04-09T20:18:25Z" finished-at="2015-04-09T20:18:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@3d2ca4ef]" name="reportTestCaseResult" is-config="true" duration-ms="106" started-at="2015-04-09T20:18:28Z" finished-at="2015-04-09T20:18:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11 -->
-    </test> <!-- ForgotPassword-11 -->
-    <test name="ForgotPassword-13" duration-ms="18663" started-at="2015-04-09T14:48:28Z" finished-at="2015-04-09T14:48:46Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@11412a45]" name="isTestSkipped" is-config="true" duration-ms="135" started-at="2015-04-09T20:18:28Z" finished-at="2015-04-09T20:18:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@11412a45]" name="launch_Browser" is-config="true" duration-ms="1589" started-at="2015-04-09T20:18:28Z" finished-at="2015-04-09T20:18:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_13(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@11412a45]" name="forgot_Password_13" duration-ms="13882" started-at="2015-04-09T20:18:30Z" data-provider="forgot_Password13_Test_Data" finished-at="2015-04-09T20:18:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[email@weboapps.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[weboqa6186]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[test1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_13 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@11412a45]" name="reporter" is-config="true" duration-ms="2832" started-at="2015-04-09T20:18:44Z" finished-at="2015-04-09T20:18:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@11412a45]" name="reportTestCaseResult" is-config="true" duration-ms="85" started-at="2015-04-09T20:18:46Z" finished-at="2015-04-09T20:18:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13 -->
-    </test> <!-- ForgotPassword-13 -->
-    <test name="ForgotPassword-14" duration-ms="44741" started-at="2015-04-09T14:48:46Z" finished-at="2015-04-09T14:49:31Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@729405ca]" name="isTestSkipped" is-config="true" duration-ms="167" started-at="2015-04-09T20:18:46Z" finished-at="2015-04-09T20:18:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@729405ca]" name="launch_Browser" is-config="true" duration-ms="1475" started-at="2015-04-09T20:18:47Z" finished-at="2015-04-09T20:18:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_14(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@729405ca]" name="forgot_Password_14" duration-ms="39977" started-at="2015-04-09T20:18:48Z" data-provider="forgot_Password14_Test_Data" finished-at="2015-04-09T20:19:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[email@weboapps.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[weboqa6186]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[test1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_14 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@729405ca]" name="reporter" is-config="true" duration-ms="2898" started-at="2015-04-09T20:19:28Z" finished-at="2015-04-09T20:19:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@729405ca]" name="reportTestCaseResult" is-config="true" duration-ms="93" started-at="2015-04-09T20:19:31Z" finished-at="2015-04-09T20:19:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14 -->
-    </test> <!-- ForgotPassword-14 -->
-    <test name="ForgotPassword-15" duration-ms="47102" started-at="2015-04-09T14:49:31Z" finished-at="2015-04-09T14:50:18Z">
-      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15">
-        <test-method status="PASS" signature="isSuiteSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@5e8caa63]" name="isSuiteSkipped" is-config="true" duration-ms="879" started-at="2015-04-09T20:12:53Z" finished-at="2015-04-09T20:12:54Z">
+    <test name="Default test" duration-ms="54740" started-at="2015-05-19T18:12:20Z" finished-at="2015-05-19T18:13:15Z">
+      <class name="com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1">
+        <test-method status="PASS" signature="isSuiteSkipped()[pri:0, instance:com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1@470d6c27]" name="isSuiteSkipped" is-config="true" duration-ms="2881" started-at="2015-05-19T23:42:17Z" finished-at="2015-05-19T23:42:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSuiteSkipped -->
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@5e8caa63]" name="isTestSkipped" is-config="true" duration-ms="116" started-at="2015-04-09T20:19:31Z" finished-at="2015-04-09T20:19:31Z">
+        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1@470d6c27]" name="isTestSkipped" is-config="true" duration-ms="1332" started-at="2015-05-19T23:42:20Z" finished-at="2015-05-19T23:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@5e8caa63]" name="launch_Browser" is-config="true" duration-ms="1562" started-at="2015-04-09T20:19:31Z" finished-at="2015-04-09T20:19:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="launch_Browser()[pri:0, instance:com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1@470d6c27]" name="launch_Browser" is-config="true" duration-ms="3275" started-at="2015-05-19T23:42:22Z" finished-at="2015-05-19T23:42:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_15(java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@5e8caa63]" name="forgot_Password_15" duration-ms="42598" started-at="2015-04-09T20:19:33Z" data-provider="forgot_Password15_Test_Data" finished-at="2015-04-09T20:20:16Z">
+        <test-method status="FAIL" signature="profileEdit(java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1@470d6c27]" name="profileEdit" duration-ms="45425" started-at="2015-05-19T23:42:26Z" data-provider="ma_AccountEdit1_Test_Data" finished-at="2015-05-19T23:43:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[email@weboapps.com]]>
+                <![CDATA[bhabani.shankar105@weboapps.com]]>
               </value>
             </param>
             <param index="1">
@@ -607,22 +32,55 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.NFHS.base.PageBase.webElementProperty(PageBase.java:36)
+	at com.NFHS.PageObjects.UserProfilePage.profileEditPersonalInfo(UserProfilePage.java:29)
+	at com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1.profileEdit(MA_AccountEdit1.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- forgot_Password_15 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@5e8caa63]" name="reporter" is-config="true" duration-ms="2630" started-at="2015-04-09T20:20:16Z" finished-at="2015-04-09T20:20:18Z">
+        </test-method> <!-- profileEdit -->
+        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1@470d6c27]" name="reporter" is-config="true" duration-ms="3583" started-at="2015-05-19T23:43:11Z" finished-at="2015-05-19T23:43:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@5e8caa63]" name="reportTestCaseResult" is-config="true" duration-ms="101" started-at="2015-04-09T20:20:18Z" finished-at="2015-04-09T20:20:18Z">
+        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1@470d6c27]" name="reportTestCaseResult" is-config="true" duration-ms="410" started-at="2015-05-19T23:43:15Z" finished-at="2015-05-19T23:43:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestCaseResult -->
-        <test-method status="PASS" signature="reportSuiteResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@5e8caa63]" name="reportSuiteResult" is-config="true" duration-ms="0" started-at="2015-04-09T20:20:18Z" finished-at="2015-04-09T20:20:18Z">
+        <test-method status="PASS" signature="reportSuiteResult()[pri:0, instance:com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1@470d6c27]" name="reportSuiteResult" is-config="true" duration-ms="1" started-at="2015-05-19T23:43:15Z" finished-at="2015-05-19T23:43:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSuiteResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15 -->
-    </test> <!-- ForgotPassword-15 -->
-  </suite> <!-- ForgotPassword -->
+      </class> <!-- com.NFHS.TestSuites.MyAccountSuite.MA_AccountEdit1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

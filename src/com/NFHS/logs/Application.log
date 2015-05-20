@@ -1,2 +1,7 @@
-18/05/2015 05:46:09 rootLogger ----Checking run mode of suite----
-18/05/2015 05:46:12 rootLogger ----Checking the Runmode of :ProfileInfoEdit1----
+20/05/2015 12:16:59 rootLogger ----Checking run mode of suite----
+20/05/2015 12:17:01 rootLogger ----Checking the Runmode of :AIC_PinsFrames1----
+20/05/2015 12:17:01 rootLogger ----Test is executeable----
+20/05/2015 12:17:01 rootLogger ----Launching Web Browser----
+20/05/2015 12:17:04 rootLogger ----Checking Runmode of Testdata:AIC_PinsFrames1----
+20/05/2015 12:17:04 rootLogger ----Executing Testcase---- :AIC_PinsFrames1----
+20/05/2015 12:17:36 rootLogger ---Closing Web browser---

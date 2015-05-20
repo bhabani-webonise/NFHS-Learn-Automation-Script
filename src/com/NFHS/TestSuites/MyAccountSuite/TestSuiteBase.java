@@ -30,7 +30,7 @@ public class TestSuiteBase extends TestBase
 	{
 		initialize();
 		APP_LOGS.info("----Checking run mode of suite----");
-		if(!TestUtil.isSuiteRunnable(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","Suite","Test Suite","ProfilePage"))
+		if(!TestUtil.isSuiteRunnable(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","Suite","Test Suite","Profile"))
 			throw new SkipException("Runmode has set to no for given suite");		
 	    //APP_LOGS.info("----Suite is executable---");
 	}

@@ -93,11 +93,11 @@ public class TestUtil
 	}
 	public static void main(String args[])
 	{
-		//TestUtil.isSuiteRunnable(System.getProperty("user.dir")+"\\src\\test\\resources","suite","Test Suites","Selfservices");
+		//System.out.println(TestUtil.isSuiteRunnable(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","Suite","Test Suite","Profile"));
 		//TestUtil.isTestCaseRunnable(System.getProperty("user.dir")+"\\src\\test\\resources","Checkout","Test Cases","Delivery_Address_Check");
 		//TestUtil.updateResult(System.getProperty("user.dir")+"\\src\\test\\resources","Registration","Test Cases","Results",2,"Pass");
 		//TestUtil.getData(System.getProperty("user.dir")+"\\src\\test\\resources","Checkout","Delivery_Address_Check");
-		 System.out.println(TestUtil.getRowNumber(System.getProperty("user.dir")+"\\src\\com\\Framework\\xls","Registration","Test Cases","Registration_Of_New_User"));
+		 //System.out.println(TestUtil.getRowNumber(System.getProperty("user.dir")+"\\src\\com\\Framework\\xls","Registration","Test Cases","Registration_Of_New_User"));
 		//TestUtil.getRunmodes(System.getProperty("user.dir")+"\\src\\com\\Framework\\xls","Registration","Registration_Of_New_User");
 
 	}

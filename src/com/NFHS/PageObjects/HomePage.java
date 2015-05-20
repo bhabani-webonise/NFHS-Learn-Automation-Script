@@ -59,14 +59,28 @@ public class HomePage extends PageBase
     	 webElementProperty("cc_siginbutton").click();
     	 return new UserAccountPage(driver);
      }
-     
-    
-    
    
-    
-    
-	
-  
-    
+
+public UserProfilePage signInLink(String username,String password) throws Exception
+{
+	 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	 webElementProperty("signinlink").click();
+	 Thread.sleep(2000);
+	 webElementProperty("cc_emailaddress").sendKeys(username);
+	 webElementProperty("cc_password").sendKeys(password);
+	 webElementProperty("cc_siginbutton").click();
+	 return new UserProfilePage(driver);
+}
+
+	public UserDashboard signinClick(String username,String password) throws Exception {
+
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		webElementProperty("signinlink").click();
+		Thread.sleep(2000);
+		webElementProperty("cc_emailaddress").sendKeys(username);
+		webElementProperty("cc_password").sendKeys(password);
+		webElementProperty("cc_siginbutton").click();
+		return new UserDashboard(driver);
+	}
 	
 }
