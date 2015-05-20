@@ -22,12 +22,19 @@ public class UserDashboard extends PageBase {
     public void purchasePinsFrames() throws Exception
     {
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         webElementProperty("National_Cert").click();
         webElementProperty("AIC_Cert").click();
         webElementProperty("PinsAddCart").click();
         driver.switchTo().alert().accept();
         webElementProperty("CheckOut").click();
 
+    }
+
+    public void test2() throws Exception {
+        driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+        webElementProperty("Coursestab").click();
+        webElementProperty("View_Course").click();
+        System.out.println("Hello");
     }
 }

@@ -10,69 +10,63 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import com.NFHS.base.PageBase;
-public class HomePage extends PageBase 
-{
-  
-  WebDriver driver;
-     
-     public HomePage(WebDriver driver) throws IOException
-     {
-    	 super(driver);
-    	 this.driver=driver;
-    	 driver.manage().window().maximize();
-    	 driver.get(siteUrls("nfhslearn"));
-    	 if(driver.toString().contains("InternetExplorer"))
-    	 {
-          driver.get("javascript:document.getElementById('overridelink').click();");
-    	 }
-    	}
-     
-     public String Title()
-     {
-    	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    	 return driver.getTitle();
-     }
-     
-     public RegistrationPage registerLinkClick() throws Exception
-     {
-    	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    	 webElementProperty("registerlink").click();
-    	 return new RegistrationPage(driver);
-    	 
-     }
-     public ForgotPasswordPage forgotPasswordLinkClick() throws Exception
-     {
-    	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    	 webElementProperty("signinlink").click();
-    	 Thread.sleep(2000);
-    	 webElementProperty("forgotpasswordlink").click();
-    	 return new ForgotPasswordPage(driver);
-    	 
-     }
-     public UserAccountPage signInLinkClick(String username,String password) throws Exception
-     {
-    	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    	 webElementProperty("signinlink").click();
-    	 Thread.sleep(2000);
-    	 webElementProperty("cc_emailaddress").sendKeys(username);
-    	 webElementProperty("cc_password").sendKeys(password);
-    	 webElementProperty("cc_siginbutton").click();
-    	 return new UserAccountPage(driver);
-     }
-   
+public class HomePage extends PageBase {
 
-public UserProfilePage signInLink(String username,String password) throws Exception
-{
-	 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	 webElementProperty("signinlink").click();
-	 Thread.sleep(2000);
-	 webElementProperty("cc_emailaddress").sendKeys(username);
-	 webElementProperty("cc_password").sendKeys(password);
-	 webElementProperty("cc_siginbutton").click();
-	 return new UserProfilePage(driver);
-}
+	WebDriver driver;
 
-	public UserDashboard signinClick(String username,String password) throws Exception {
+	public HomePage(WebDriver driver) throws IOException {
+		super(driver);
+		this.driver = driver;
+		driver.manage().window().maximize();
+		driver.get(siteUrls("nfhslearn"));
+		if (driver.toString().contains("InternetExplorer")) {
+			driver.get("javascript:document.getElementById('overridelink').click();");
+		}
+	}
+
+	public String Title() {
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		return driver.getTitle();
+	}
+
+	public RegistrationPage registerLinkClick() throws Exception {
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		webElementProperty("registerlink").click();
+		return new RegistrationPage(driver);
+
+	}
+
+	public ForgotPasswordPage forgotPasswordLinkClick() throws Exception {
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		webElementProperty("signinlink").click();
+		Thread.sleep(2000);
+		webElementProperty("forgotpasswordlink").click();
+		return new ForgotPasswordPage(driver);
+
+	}
+
+	public UserAccountPage signInLinkClick(String username, String password) throws Exception {
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		webElementProperty("signinlink").click();
+		Thread.sleep(2000);
+		webElementProperty("cc_emailaddress").sendKeys(username);
+		webElementProperty("cc_password").sendKeys(password);
+		webElementProperty("cc_siginbutton").click();
+		return new UserAccountPage(driver);
+	}
+
+
+	public UserProfilePage signInLink(String username, String password) throws Exception {
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		webElementProperty("signinlink").click();
+		Thread.sleep(2000);
+		webElementProperty("cc_emailaddress").sendKeys(username);
+		webElementProperty("cc_password").sendKeys(password);
+		webElementProperty("cc_siginbutton").click();
+		return new UserProfilePage(driver);
+	}
+
+	public UserDashboard signInClick(String username, String password) throws Exception {
 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		webElementProperty("signinlink").click();
@@ -82,5 +76,22 @@ public UserProfilePage signInLink(String username,String password) throws Except
 		webElementProperty("cc_siginbutton").click();
 		return new UserDashboard(driver);
 	}
-	
+
+
+	public AdminPage AdminsignIn(String username, String password) throws Exception {
+
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		webElementProperty("signinlink").click();
+		Thread.sleep(2000);
+		webElementProperty("cc_emailaddress").sendKeys(username);
+		webElementProperty("cc_password").sendKeys(password);
+		webElementProperty("cc_siginbutton").click();
+		return new AdminPage(driver);
+	}
+
+
 }
+
+
+	
+

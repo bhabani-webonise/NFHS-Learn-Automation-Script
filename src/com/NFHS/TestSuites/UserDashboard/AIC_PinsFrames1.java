@@ -1,7 +1,6 @@
 package com.NFHS.TestSuites.UserDashboard;
 
 import com.NFHS.PageObjects.HomePage;
-import com.NFHS.PageObjects.UserAccountPage;
 import com.NFHS.PageObjects.UserDashboard;
 import com.NFHS.TestSuites.CompleteCourse.TestSuiteBase;
 import com.NFHS.util.TestUtil;
@@ -28,7 +27,6 @@ public class AIC_PinsFrames1   extends TestSuiteBase {
     static boolean isSheetExist = false;
 
     HomePage homepage;
-    UserAccountPage uap;
     UserDashboard  udb;
 
 
@@ -65,8 +63,9 @@ public class AIC_PinsFrames1   extends TestSuiteBase {
         APP_LOGS.info("----Executing Testcase---- :" + this.getClass().getSimpleName() + "----");
 
         homepage = new HomePage(driver);
-        udb = homepage.signinClick(username, password);
-        udb.purchasePinsFrames();
+        udb = homepage.signInClick(username, password);
+        //udb.purchasePinsFrames();
+        udb.test2();
     }
 
 
@@ -77,18 +76,18 @@ public class AIC_PinsFrames1   extends TestSuiteBase {
         if(isSheetExist)
             if(skip)
             {
-                TestUtil.updateResult(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","Profile", this.getClass().getSimpleName(), count, "Results", "skipped");
+                TestUtil.updateResult(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","UserDashboard", this.getClass().getSimpleName(), count, "Results", "skipped");
             }
             else if(fail)
             {
 
                 isTestfail=true;
-                TestUtil.updateResult(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","Profile", this.getClass().getSimpleName(), count, "Results", "fail");
+                TestUtil.updateResult(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","UserDashboard", this.getClass().getSimpleName(), count, "Results", "fail");
 
             }
             else
             {
-                TestUtil.updateResult(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","Profile", this.getClass().getSimpleName(), count, "Results", "pass");
+                TestUtil.updateResult(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","UserDashboard", this.getClass().getSimpleName(), count, "Results", "pass");
             }
         skip=false;
         fail=false;
@@ -130,9 +129,5 @@ public class AIC_PinsFrames1   extends TestSuiteBase {
         Object[][] data=TestUtil.getData(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","UserDashboard","AIC_PinsFrames1");
         return(data);
     }
-
-
-
-
 
 }
