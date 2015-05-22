@@ -345,6 +345,22 @@ public class UserAccountPage extends PageBase
 		webElementProperty("ToAddress").sendKeys("Pratikbangal33@gmail.com");
 		webElementProperty("MoveCourses").click();
 	}
+
+
+	
+
+	public  void UpdateProgressTool() throws Exception {
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		webElementProperty("UpdateProgress").click();
+		Select UpdateCourse=new Select(webElementProperty("select_dropdown"));
+		UpdateCourse.selectByVisibleText("All Courses");
+        webElementProperty("Update_User").sendKeys("bhabani.shankar105@weboapps.com");
+		webElementProperty("Update_Search").click();
+		webElementProperty("UpdateCourseProgress").click();
+		webElementProperty("Update_Percenatage").sendKeys("50");
+		webElementProperty("UpdateCourse").click();
+
+	}
 	
 	public void coursePage() throws Exception
 	{

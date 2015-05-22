@@ -1,8 +1,8 @@
-22/05/2015 16:06:10 rootLogger ----Checking run mode of suite----
-22/05/2015 16:06:12 rootLogger ----Checking the Runmode of :MA_AccountEdit1----
-22/05/2015 16:06:12 rootLogger ----Test is executeable----
-22/05/2015 16:06:12 rootLogger ----Launching Web Browser----
-22/05/2015 16:06:13 rootLogger ----Launching Web Browser----
-22/05/2015 16:06:15 rootLogger ----Checking Runmode of Testdata:MA_AccountEdit1----
-22/05/2015 16:06:15 rootLogger ----Executing Testcase---- :MA_AccountEdit1----
-22/05/2015 16:07:10 rootLogger ---Closing Web browser---
+22/05/2015 16:37:06 rootLogger ----Checking run mode of suite----
+22/05/2015 16:37:07 rootLogger ----Checking the Runmode of :MA_AccountEdit1----
+22/05/2015 16:37:08 rootLogger ----Test is executeable----
+22/05/2015 16:37:08 rootLogger ----Launching Web Browser----
+22/05/2015 16:37:08 rootLogger ----Launching Web Browser----
+22/05/2015 16:37:11 rootLogger ----Checking Runmode of Testdata:MA_AccountEdit1----
+22/05/2015 16:37:11 rootLogger ----Executing Testcase---- :MA_AccountEdit1----
+22/05/2015 16:38:03 rootLogger ---Closing Web browser---
