@@ -2,7 +2,6 @@ package com.NFHS.TestSuites.MyAccountSuite;
 
 import com.NFHS.PageObjects.HomePage;
 import com.NFHS.PageObjects.UserAccountPage;
-import com.NFHS.PageObjects.UserProfilePage;
 import com.NFHS.TestSuites.CompleteCourse.TestSuiteBase;
 import com.NFHS.util.TestUtil;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -63,8 +62,8 @@ public class MA_AccountEdit1   extends TestSuiteBase {
         uap = homepage.signInLinkClick(username, password);
         //uap.InvoiceLookTool();
 
-       // uap.IssueFreeCourseTool();
-       // uap.AddHomeScreenMessage();
+       //uap.IssueFreeCourseTool();
+       //uap.AddHomeScreenMessage();
        //uap.RemoveHomeSrceenMessage();
        //uap.EditHomeScreenMessage();
         uap.AddSliderTool();

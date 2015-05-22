@@ -318,11 +318,13 @@ public class UserAccountPage extends PageBase
 
 	public void AddSliderTool() throws Exception {
 
-		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		Thread.sleep(5000);
 		webElementProperty("Admin_Tools").click();
-		webElementProperty("Slider").click();
+		webElementProperty("SliderTool").click();
 		webElementProperty("AddNewSlider").click();
 		webElementProperty("TitleOfSlider").clear();
+		webElementProperty("TitleOfSlider").sendKeys("Football Certification");
 		webElementProperty("SubHeadingSlider").sendKeys("CIC Certified Students");
 		webElementProperty("Description").sendKeys("The Sportsmanship skill");
 		webElementProperty("LinkSlider").sendKeys("https://www.google.com");
