@@ -332,6 +332,19 @@ public class UserAccountPage extends PageBase
 		webElementProperty("UploadSliderImage").sendKeys("C:\\Users\\webonise\\Desktop\\slide_img1.png");
 		webElementProperty("Slider_SaveButton").click();
 	}
+
+
+	public void CourseMovementTool() throws Exception {
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
+		webElementProperty("CMVTool").click();
+		webElementProperty("CMV_Email").click();
+		webElementProperty("CMV_Email").sendKeys("bhabani.shankar105@weboapps.com");
+		webElementProperty("FindCourses").click();
+		webElementProperty("CourseMove").click();
+		webElementProperty("ToAddress").sendKeys("Pratikbangal33@gmail.com");
+		webElementProperty("MoveCourses").click();
+	}
 	
 	public void coursePage() throws Exception
 	{
