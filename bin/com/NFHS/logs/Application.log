@@ -1,2 +1,8 @@
-18/05/2015 05:40:26 rootLogger ----Checking run mode of suite----
-18/05/2015 05:40:29 rootLogger ----Checking the Runmode of :ProfileInfoEdit1----
+22/05/2015 14:49:29 rootLogger ----Checking run mode of suite----
+22/05/2015 14:49:30 rootLogger ----Checking the Runmode of :MA_AccountEdit1----
+22/05/2015 14:49:31 rootLogger ----Test is executeable----
+22/05/2015 14:49:31 rootLogger ----Launching Web Browser----
+22/05/2015 14:49:31 rootLogger ----Launching Web Browser----
+22/05/2015 14:49:33 rootLogger ----Checking Runmode of Testdata:MA_AccountEdit1----
+22/05/2015 14:49:33 rootLogger ----Executing Testcase---- :MA_AccountEdit1----
+22/05/2015 14:50:08 rootLogger ---Closing Web browser---

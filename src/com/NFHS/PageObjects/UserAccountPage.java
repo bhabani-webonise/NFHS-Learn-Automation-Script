@@ -1,5 +1,6 @@
 package com.NFHS.PageObjects;
 
+import java.sql.Time;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -13,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.NFHS.base.PageBase;
 import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
+import org.testng.Assert;
 
 public class UserAccountPage extends PageBase
 
@@ -254,7 +256,70 @@ public class UserAccountPage extends PageBase
 		builder.click(webElementProperty("evaluation_rb6")).perform();
 		
 	}
-	
+
+
+
+	public void InvoiceLookTool() throws Exception {
+        driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
+		webElementProperty("Invoice_lookUp").click();
+		webElementProperty("Invoice_lookUp_no").sendKeys("R571372685");
+		webElementProperty("Invoice_lookup_Seach").click();
+		webElementProperty("Invoice_Click").click();
+		String text="Invoice Detail Report";
+
+	}
+
+	public void IssueFreeCourseTool() throws Exception {
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
+		webElementProperty("Issue_FreeCourse").click();
+		webElementProperty("Issue_Free_Course_Button").click();
+		webElementProperty("Issue_FreeCourse_Email").click();
+		webElementProperty("Issue_FreeCourse_Email").sendKeys("bhabani.shankar105@weboapps.com");
+		System.out.println("Debugdropdown");
+		Select IssueFreeCourse=new Select(webElementProperty("select_dropdown_FreeCourse"));
+		IssueFreeCourse.selectByVisibleText("Coaching Boys Lacrosse");
+		System.out.println("Issue ool course passed");
+		Thread.sleep(10000);
+		webElementProperty("Issue_FreeCourse_Send").click();
+		System.out.println("Issues course freely");
+
+	}
+
+
+	public void AddHomeScreenMessage() throws Exception {
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
+		webElementProperty("HomeScreenMessage").click();
+		webElementProperty("HomeScreenMessageYes").click();
+		webElementProperty("HomeScreenMessage_Save").click();
+	}
+
+	public void RemoveHomeSceenMessage() throws Exception {
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
+		webElementProperty("HomeScreenMessage").click();
+		webElementProperty("HomeScreenMessageNo").click();
+		webElementProperty("HomeScreenMessage_Save").click();
+	}
+
+
+	public  void EditHomeScreenMessage() throws Exception {
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
+		webElementProperty("HomeScreenMessage").click();
+		webElementProperty("HomeScreenMessageYes").click();
+		webElementProperty("HomeScreenMessageContent").clear();
+		webElementProperty("HomeScreenMessageContent").sendKeys("NFHS HelpDesk will be closed on 15th June 2015");
+		webElementProperty("HomeScreenMessage_Save").click();
+
+	}
+
+	public void SliderTool()
+	{
+		
+	}
 	
 	public void coursePage() throws Exception
 	{

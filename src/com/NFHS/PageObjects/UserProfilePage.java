@@ -38,6 +38,8 @@ public class UserProfilePage extends PageBase {
         webElementProperty("MyAccount_link").click();
         webElementProperty("Edit").click();
         webElementProperty("PersonalInfoEdited_Save").click();
+
+
     }
 
 }
