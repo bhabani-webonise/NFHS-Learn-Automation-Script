@@ -296,7 +296,7 @@ public class UserAccountPage extends PageBase
 		webElementProperty("HomeScreenMessage_Save").click();
 	}
 
-	public void RemoveHomeSceenMessage() throws Exception {
+	public void RemoveHomeSrceenMessage() throws Exception {
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 		webElementProperty("Admin_Tools").click();
 		webElementProperty("HomeScreenMessage").click();
@@ -316,9 +316,19 @@ public class UserAccountPage extends PageBase
 
 	}
 
-	public void SliderTool()
-	{
-		
+	public void AddSliderTool() throws Exception {
+
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
+		webElementProperty("Slider").click();
+		webElementProperty("AddNewSlider").click();
+		webElementProperty("TitleOfSlider").clear();
+		webElementProperty("SubHeadingSlider").sendKeys("CIC Certified Students");
+		webElementProperty("Description").sendKeys("The Sportsmanship skill");
+		webElementProperty("LinkSlider").sendKeys("https://www.google.com");
+		webElementProperty("ButtonNameOfSlider").sendKeys("View More");
+		webElementProperty("UploadSliderImage").sendKeys("C:\\Users\\webonise\\Desktop\\slide_img1.png");
+		webElementProperty("Slider_SaveButton").click();
 	}
 	
 	public void coursePage() throws Exception

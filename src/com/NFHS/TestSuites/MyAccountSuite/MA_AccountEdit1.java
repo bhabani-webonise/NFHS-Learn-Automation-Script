@@ -65,8 +65,9 @@ public class MA_AccountEdit1   extends TestSuiteBase {
 
        // uap.IssueFreeCourseTool();
        // uap.AddHomeScreenMessage();
-       // uap.RemoveHomeSceenMessage();
-        uap.EditHomeScreenMessage();
+       //uap.RemoveHomeSrceenMessage();
+       //uap.EditHomeScreenMessage();
+        uap.AddSliderTool();
 
     }
 
