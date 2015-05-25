@@ -3,7 +3,7 @@
 	<test name="Profile Edit-1">
 	     <parameter name="browser" value="chrome"/>
 	        <classes>
-				<class name="com.NFHS.TestSuites.MyAccountSuite.ProfileInfoEdit1"/>
+				<class name="com.NFHS.TestSuites.AdminDashBoardSuite.ProfileInfoEdit1"/>
 			</classes>
 	</test>
 

@@ -311,7 +311,7 @@ public class UserAccountPage extends PageBase
 		webElementProperty("HomeScreenMessage").click();
 		webElementProperty("HomeScreenMessageYes").click();
 		webElementProperty("HomeScreenMessageContent").clear();
-		webElementProperty("HomeScreenMessageContent").sendKeys("NFHS HelpDesk will be closed on 15th June 2015");
+		webElementProperty("HomeScreenMessageContent").sendKeys("The NFHS Help Desk will be closed from 15th June 2015");
 		webElementProperty("HomeScreenMessage_Save").click();
 
 	}
@@ -329,8 +329,21 @@ public class UserAccountPage extends PageBase
 		webElementProperty("Description").sendKeys("The Sportsmanship skill");
 		webElementProperty("LinkSlider").sendKeys("https://www.google.com");
 		webElementProperty("ButtonNameOfSlider").sendKeys("View More");
+		System.out.println("Hello");
 		webElementProperty("UploadSliderImage").sendKeys("C:\\Users\\webonise\\Desktop\\slide_img1.png");
-		webElementProperty("Slider_SaveButton").click();
+		Thread.sleep(5000);
+		System.out.println("Hi");
+		webElementProperty("Slider_Save").click();
+		System.out.println("Hello");
+	}
+
+
+	public void DeleteSlider() throws Exception {
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
+		webElementProperty("SliderTool").click();
+	    webElementProperty("Slider_Delete").click();
+
 	}
 
 
@@ -383,8 +396,10 @@ public class UserAccountPage extends PageBase
 
 	public void FulfillmentTool() throws Exception {
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
 		webElementProperty("FulfillmentTool").click();
 		webElementProperty("FulfillmentTool_View").click();
+		webElementProperty("FulfillmentComplete").click();
 
 	}
 

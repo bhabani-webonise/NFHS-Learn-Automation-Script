@@ -51,7 +51,7 @@ public class HomePage extends PageBase
      }
      public UserAccountPage signInLinkClick(String username,String password) throws Exception
      {
-    	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	 driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     	 webElementProperty("signinlink").click();
     	 Thread.sleep(10000);
     	 webElementProperty("cc_emailaddress").sendKeys(username);

@@ -1,8 +1,2 @@
-22/05/2015 17:20:03 rootLogger ----Checking run mode of suite----
-22/05/2015 17:20:05 rootLogger ----Checking the Runmode of :MA_AccountEdit1----
-22/05/2015 17:20:05 rootLogger ----Test is executeable----
-22/05/2015 17:20:05 rootLogger ----Launching Web Browser----
-22/05/2015 17:20:05 rootLogger ----Launching Web Browser----
-22/05/2015 17:20:07 rootLogger ----Checking Runmode of Testdata:MA_AccountEdit1----
-22/05/2015 17:20:07 rootLogger ----Executing Testcase---- :MA_AccountEdit1----
-22/05/2015 17:21:17 rootLogger ---Closing Web browser---
+25/05/2015 15:53:24 rootLogger ----Checking run mode of suite----
+25/05/2015 15:53:25 rootLogger ----Checking the Runmode of :SlideTool2----
