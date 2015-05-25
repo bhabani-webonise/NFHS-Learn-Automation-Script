@@ -53,7 +53,7 @@ public class HomePage extends PageBase
      {
     	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	 webElementProperty("signinlink").click();
-    	 Thread.sleep(2000);
+    	 Thread.sleep(10000);
     	 webElementProperty("cc_emailaddress").sendKeys(username);
     	 webElementProperty("cc_password").sendKeys(password);
     	 webElementProperty("cc_siginbutton").click();

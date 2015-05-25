@@ -361,7 +361,34 @@ public class UserAccountPage extends PageBase
 		webElementProperty("UpdateCourse").click();
 
 	}
-	
+
+
+	public void AdminPermission() throws Exception {
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		webElementProperty("Admin_Tools").click();
+		webElementProperty("AdminPermission").click();
+		webElementProperty("AssignAdmin").click();
+		webElementProperty("AssignAdminEmail").sendKeys("bhabani.shankar102@weboapps.com");
+		webElementProperty("AssignAdmin_Search").click();
+		System.out.println("Debug2");
+		webElementProperty("AdminPermissio_ViewDetail").click();
+		Select SelectRole=new Select(webElementProperty("AdminPermission_SelectRole"));
+		SelectRole.selectByVisibleText("State Association Admin");
+		System.out.println("Debug2");
+		Select SelectState=new Select(webElementProperty("SelectRole_State"));
+		SelectState.selectByVisibleText("Florida");
+
+	}
+
+
+	public void FulfillmentTool() throws Exception {
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		webElementProperty("FulfillmentTool").click();
+		webElementProperty("FulfillmentTool_View").click();
+
+	}
+
+
 	public void coursePage() throws Exception
 	{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
