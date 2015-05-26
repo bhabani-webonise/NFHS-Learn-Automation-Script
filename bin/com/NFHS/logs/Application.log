@@ -1,2 +1,8 @@
-25/05/2015 15:49:03 rootLogger ----Checking run mode of suite----
-25/05/2015 15:49:04 rootLogger ----Checking the Runmode of :SlideTool2----
+26/05/2015 12:41:38 rootLogger ----Checking run mode of suite----
+26/05/2015 12:41:41 rootLogger ----Checking the Runmode of :Forgot_Password8----
+26/05/2015 12:41:41 rootLogger ----Test is excuteable----
+26/05/2015 12:41:42 rootLogger ----Launching Web Browser----
+26/05/2015 12:41:43 rootLogger ----Launching Web Browser----
+26/05/2015 12:41:45 rootLogger ----Checking Runmode of Testdata:Forgot_Password8----
+26/05/2015 12:41:45 rootLogger ----Executing Testcase---- :Forgot_Password8----
+26/05/2015 12:43:24 rootLogger ---Closing Web browser---

@@ -80,7 +80,7 @@ public class Forgot_Password8 extends TestSuiteBase
 	     try
 	          {
 	               forgotpassword=homepage.forgotPasswordLinkClick();
-	              String emailtext=forgotpassword.emailAddressValid(emailaddress);
+	               String emailtext=forgotpassword.emailAddressValid(emailaddress);
 	               Assert.assertEquals(emailtext,"You will receive an email with instructions about how to reset your password in a few minutes.");
 	              
 	          
@@ -94,18 +94,30 @@ public class Forgot_Password8 extends TestSuiteBase
 	      {
 	    	    driver.navigate().to("http://gmail.com");
    	            PageBase pb=new PageBase(driver);
-   	            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+   	            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
    	            pb.webElementProperty("gmail_email").sendKeys(emailaddress);
-   			    pb.webElementProperty("gmail_password").sendKeys(gpassword);
-   			    pb.webElementProperty("gmail_submit").click();
-   			    pb.webElementProperty("inbox").click();
-   			    Thread.sleep(1000);
-   			    driver.findElement(By.className("gbqfif")).sendKeys("email@weboapps.com ");
-   			    pb.webElementProperty("searchbox_button").click();
-   			    List<WebElement> elements=driver.findElements(By.xpath("//span[@class='y2']/b"));
-   			    elements.get(0).click();
+			    System.out.println("Puts1");
+			    pb.webElementProperty("gmail_submit").click();
+			    System.out.println("Puts2");
+			    pb.webElementProperty("gmail_password").sendKeys(gpassword);
+			    System.out.println("Puts3");
+			    pb.webElementProperty("GmailSignIn").click();
+			    Thread.sleep(5000);
+			    System.out.println("Puts4");
+			   //pb.webElementProperty("inbox").click();
+   			   //Thread.sleep(1000);
+			    driver.findElement(By.className("gbqfif")).click();
+			    System.out.println("Puts5");
+			    driver.findElement(By.className("gbqfif")).sendKeys("email@weboapps.com ");
+			    System.out.println("puts6");
+			    pb.webElementProperty("searchbox_button").click();
+			    System.out.println("Puts7");
+			    List<WebElement> elements=driver.findElements(By.xpath("//span[@class='y2']/b"));
+			    System.out.println("Puts8");
+			    elements.get(0).click();
 	    	    pb.webElementProperty("change_my_password_link").click();
-	    	    Thread.sleep(2000);
+			    System.out.println("Puts9");
+			    Thread.sleep(2000);
 	    	    String parentwindow=driver.getWindowHandle();
 	    		Set<String> allwindows=driver.getWindowHandles();
 	    			if(!allwindows.isEmpty())
