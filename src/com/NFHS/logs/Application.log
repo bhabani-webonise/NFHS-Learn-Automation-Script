@@ -1,7 +1,7 @@
-04/06/2015 11:52:54 rootLogger ----Checking run mode of suite----
-04/06/2015 11:52:58 rootLogger ----Checking the Runmode of :Registration_Account_Setup7----
-04/06/2015 11:52:59 rootLogger ----Test is excuteable----
-04/06/2015 11:53:01 rootLogger ----Launching Web Browser----
-04/06/2015 11:53:02 rootLogger ----Launching Web Browser----
-04/06/2015 11:53:05 rootLogger ----Checking Runmode of Testdata:Registration_Account_Setup7----
-04/06/2015 11:53:05 rootLogger ----Executing Testcase---- :Registration_Account_Setup7----
+04/06/2015 14:46:32 rootLogger ----Checking run mode of suite----
+04/06/2015 14:46:34 rootLogger ----Checking the Runmode of :Registration_Account_Setup7----
+04/06/2015 14:46:34 rootLogger ----Test is excuteable----
+04/06/2015 14:46:35 rootLogger ----Launching Web Browser----
+04/06/2015 14:46:36 rootLogger ----Launching Web Browser----
+04/06/2015 14:46:37 rootLogger ----Checking Runmode of Testdata:Registration_Account_Setup7----
+04/06/2015 14:46:37 rootLogger ----Executing Testcase---- :Registration_Account_Setup7----

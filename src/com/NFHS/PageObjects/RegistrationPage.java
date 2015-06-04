@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.NFHS.base.PageBase;
@@ -154,19 +155,29 @@ public class RegistrationPage extends PageBase
 
 
 	  public void registerUserFlow(String emailaddress,String confirmemailaddress,String password,String confirmpassword) throws Exception {
-		  driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		  webElementProperty("registerlink").click();
+		  driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		  webElementProperty("emailaddress").sendKeys(emailaddress);
 		  webElementProperty("confirmemailaddress").sendKeys(confirmemailaddress);
 		  webElementProperty("password").sendKeys(password);
 		  webElementProperty("confirmpassword").sendKeys(confirmpassword);
 		  JavascriptExecutor js=(JavascriptExecutor)driver;
 		  js.executeScript("scroll(0,300)");
-		  webElementProperty("nextbutton").click();
+		  webElementProperty("nextbutton_Register").click();
+		  webElementProperty("Profile_fName").sendKeys("Bhabani");
+		  webElementProperty("Profile_lName").sendKeys("Shankar");
+		  webElementProperty("Profile_Add").sendKeys("D122 , Museum Area , Kalpana Square");
+		  webElementProperty("Profile_City").sendKeys("Austin");
+		  Select state=new Select(webElementProperty("State_Drop-down"));
+		  state.selectByVisibleText("Alabama");
+		  webElementProperty("Profile_Zip").sendKeys("35004");
+		  webElementProperty("Profile_Phone").sendKeys("7756832179");
+		  System.out.println("Debug1");
+		  webElementProperty("Reg_Finish").click();
+		  System.out.println("Debug2");
+		  webElementProperty("Profile_Position").click();
+		  JavascriptExecutor js1=(JavascriptExecutor)driver;
+		  js1.executeScript("scroll(0,400)");
+		  webElementProperty("Reg_Finish").click();
 
 	  }
-	  
-	  
-	
-
 }
