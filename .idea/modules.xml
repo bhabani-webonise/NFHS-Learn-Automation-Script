@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NFHS.iml" filepath="$PROJECT_DIR$/NFHS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NFHSLearn.iml" filepath="$PROJECT_DIR$/NFHSLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NFHSLearn/NFHSLearn1.iml" filepath="$PROJECT_DIR$/NFHSLearn/NFHSLearn1.iml" />
     </modules>
   </component>
 </project>

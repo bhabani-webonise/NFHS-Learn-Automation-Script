@@ -151,6 +151,20 @@ public class RegistrationPage extends PageBase
 	    	
 	    	 return error;  
 	     }
+
+
+	  public void registerUserFlow(String emailaddress,String confirmemailaddress,String password,String confirmpassword) throws Exception {
+		  driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		  webElementProperty("registerlink").click();
+		  webElementProperty("emailaddress").sendKeys(emailaddress);
+		  webElementProperty("confirmemailaddress").sendKeys(confirmemailaddress);
+		  webElementProperty("password").sendKeys(password);
+		  webElementProperty("confirmpassword").sendKeys(confirmpassword);
+		  JavascriptExecutor js=(JavascriptExecutor)driver;
+		  js.executeScript("scroll(0,300)");
+		  webElementProperty("nextbutton").click();
+
+	  }
 	  
 	  
 	

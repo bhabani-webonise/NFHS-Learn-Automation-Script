@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQL Server - NFHSOfficials@10.120.20.30" uuid="1e57a93e-5e9d-4ac5-9d58-c0fa02c5647d">
+      <secret-storage>master_key</secret-storage>
+      <user-name>WeboniseDB</user-name>
+      <schema-pattern>NFHSOfficials.*</schema-pattern>
+      <default-schemas>NFHSOfficials.*</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL -NFHSLearn" uuid="7c2dbe6a-73af-4f37-a7cd-1096df6c476a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>deploy</user-name>
+      <schema-pattern>nfhslearn_demo_06-05-2015.pg_catalog nfhslearn_demo_06-05-2015.public</schema-pattern>
+      <default-schemas>nfhslearn_demo_06-05-2015.pg_catalog nfhslearn_demo_06-05-2015.public</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - demo_db@10.0.2.148" uuid="9f650a7f-d502-4bcd-a38f-0287190d8c44">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>postgres</user-name>
+    </data-source>
+    <data-source name="PostgreSQL - demo_db@10.0.2.148 [2]" uuid="d73a9830-8d85-43cf-89e4-59a3cce9941c">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>postgres</user-name>
+    </data-source>
+  </component>
+</project>

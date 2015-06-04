@@ -3,7 +3,7 @@
 <suite name="Registration" verbose="3">	
  
 
-	<test name="Registration_Account">
+	<!--<test name="Registration_Account">
 	     <parameter name="browser" value="chrome"/>
 	        <classes>
 				<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup"/>
@@ -48,6 +48,14 @@
 	        <classes>
 				<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6"/>
 			</classes>
+	</test>-->
+
+
+	<test name="Registration_Account6">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup7"/>
+		</classes>
 	</test>
 </suite>
 

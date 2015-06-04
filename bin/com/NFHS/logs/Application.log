@@ -1,8 +1,96 @@
-26/05/2015 12:41:38 rootLogger ----Checking run mode of suite----
-26/05/2015 12:41:41 rootLogger ----Checking the Runmode of :Forgot_Password8----
-26/05/2015 12:41:41 rootLogger ----Test is excuteable----
-26/05/2015 12:41:42 rootLogger ----Launching Web Browser----
-26/05/2015 12:41:43 rootLogger ----Launching Web Browser----
-26/05/2015 12:41:45 rootLogger ----Checking Runmode of Testdata:Forgot_Password8----
-26/05/2015 12:41:45 rootLogger ----Executing Testcase---- :Forgot_Password8----
-26/05/2015 12:43:24 rootLogger ---Closing Web browser---
+01/06/2015 15:57:15 rootLogger ----Checking run mode of suite----
+01/06/2015 15:57:16 rootLogger ----Checking the Runmode of :Forgot_Password1----
+01/06/2015 15:57:17 rootLogger ----Test is excuteable----
+01/06/2015 15:57:17 rootLogger ----Launching Web Browser----
+01/06/2015 15:57:17 rootLogger ----Launching Web Browser----
+01/06/2015 15:57:19 rootLogger ----Checking Runmode of Testdata:Forgot_Password1----
+01/06/2015 15:57:19 rootLogger ----Executing Testcase---- :Forgot_Password1----
+01/06/2015 15:57:50 rootLogger ---Closing Web browser---
+01/06/2015 15:57:53 rootLogger ----Checking the Runmode of :Forgot_Password2----
+01/06/2015 15:57:54 rootLogger ----Test is excuteable----
+01/06/2015 15:57:54 rootLogger ----Launching Web Browser----
+01/06/2015 15:57:54 rootLogger ----Launching Web Browser----
+01/06/2015 15:57:55 rootLogger ----Checking Runmode of Testdata:Forgot_Password2----
+01/06/2015 15:57:55 rootLogger ----Executing Testcase---- :Forgot_Password2----
+01/06/2015 15:58:38 rootLogger ---Closing Web browser---
+01/06/2015 15:58:41 rootLogger ----Checking the Runmode of :Forgot_Password3----
+01/06/2015 15:58:41 rootLogger ----Test is excuteable----
+01/06/2015 15:58:42 rootLogger ----Launching Web Browser----
+01/06/2015 15:58:42 rootLogger ----Launching Web Browser----
+01/06/2015 15:58:43 rootLogger ----Checking Runmode of Testdata:Forgot_Password3----
+01/06/2015 15:58:43 rootLogger ----Executing Testcase---- :Forgot_Password3----
+01/06/2015 15:59:40 rootLogger ---Closing Web browser---
+01/06/2015 15:59:43 rootLogger ----Launching Web Browser----
+01/06/2015 15:59:45 rootLogger ----Checking Runmode of Testdata:Forgot_Password3----
+01/06/2015 15:59:45 rootLogger ----Executing Testcase---- :Forgot_Password3----
+01/06/2015 16:00:23 rootLogger ---Closing Web browser---
+01/06/2015 16:00:26 rootLogger ----Checking the Runmode of :Forgot_Password4----
+01/06/2015 16:00:27 rootLogger ----Test is excuteable----
+01/06/2015 16:00:27 rootLogger ----Launching Web Browser----
+01/06/2015 16:00:27 rootLogger ----Launching Web Browser----
+01/06/2015 16:00:28 rootLogger ----Checking Runmode of Testdata:Forgot_Password4----
+01/06/2015 16:00:28 rootLogger ----Executing Testcase---- :Forgot_Password4----
+01/06/2015 16:01:21 rootLogger ---Closing Web browser---
+01/06/2015 16:01:24 rootLogger ----Checking the Runmode of :Forgot_Password5----
+01/06/2015 16:01:25 rootLogger ----Test is excuteable----
+01/06/2015 16:01:25 rootLogger ----Launching Web Browser----
+01/06/2015 16:01:25 rootLogger ----Launching Web Browser----
+01/06/2015 16:01:26 rootLogger ----Checking Runmode of Testdata:Forgot_Password5----
+01/06/2015 16:01:26 rootLogger ----Executing Testcase---- :Forgot_Password5----
+01/06/2015 16:02:29 rootLogger ---Closing Web browser---
+01/06/2015 16:02:31 rootLogger ----Checking the Runmode of :Forgot_Password7----
+01/06/2015 16:02:31 rootLogger ----Test is excuteable----
+01/06/2015 16:02:31 rootLogger ----Launching Web Browser----
+01/06/2015 16:02:31 rootLogger ----Launching Web Browser----
+01/06/2015 16:02:33 rootLogger ----Checking Runmode of Testdata:Forgot_Password7----
+01/06/2015 16:02:33 rootLogger ----Executing Testcase---- :Forgot_Password7----
+01/06/2015 16:03:43 rootLogger ---Closing Web browser---
+01/06/2015 16:03:46 rootLogger ----Checking the Runmode of :Forgot_Password8----
+01/06/2015 16:03:46 rootLogger ----Test is excuteable----
+01/06/2015 16:03:47 rootLogger ----Launching Web Browser----
+01/06/2015 16:03:47 rootLogger ----Launching Web Browser----
+01/06/2015 16:03:48 rootLogger ----Checking Runmode of Testdata:Forgot_Password8----
+01/06/2015 16:03:48 rootLogger ----Executing Testcase---- :Forgot_Password8----
+01/06/2015 16:05:41 rootLogger ---Closing Web browser---
+01/06/2015 16:05:44 rootLogger ----Checking the Runmode of :Forgot_Password9----
+01/06/2015 16:05:44 rootLogger ----Test is excuteable----
+01/06/2015 16:05:44 rootLogger ----Launching Web Browser----
+01/06/2015 16:05:44 rootLogger ----Launching Web Browser----
+01/06/2015 16:05:45 rootLogger ----Checking Runmode of Testdata:Forgot_Password9----
+01/06/2015 16:05:45 rootLogger ----Executing Testcase---- :Forgot_Password9----
+01/06/2015 16:06:20 rootLogger ---Closing Web browser---
+01/06/2015 16:06:23 rootLogger ----Checking the Runmode of :Forgot_Password10----
+01/06/2015 16:06:23 rootLogger ----Test is excuteable----
+01/06/2015 16:06:23 rootLogger ----Launching Web Browser----
+01/06/2015 16:06:24 rootLogger ----Launching Web Browser----
+01/06/2015 16:06:25 rootLogger ----Checking Runmode of Testdata:Forgot_Password10----
+01/06/2015 16:06:25 rootLogger ----Executing Testcase---- :Forgot_Password10----
+01/06/2015 16:06:52 rootLogger ---Closing Web browser---
+01/06/2015 16:06:55 rootLogger ----Checking the Runmode of :Forgot_Password11----
+01/06/2015 16:06:55 rootLogger ----Test is excuteable----
+01/06/2015 16:06:55 rootLogger ----Launching Web Browser----
+01/06/2015 16:06:55 rootLogger ----Launching Web Browser----
+01/06/2015 16:06:57 rootLogger ----Checking Runmode of Testdata:Forgot_Password11----
+01/06/2015 16:06:57 rootLogger ----Executing Testcase---- :Forgot_Password11----
+01/06/2015 16:07:24 rootLogger ---Closing Web browser---
+01/06/2015 16:07:26 rootLogger ----Checking the Runmode of :Forgot_Password13----
+01/06/2015 16:07:27 rootLogger ----Test is excuteable----
+01/06/2015 16:07:27 rootLogger ----Launching Web Browser----
+01/06/2015 16:07:27 rootLogger ----Launching Web Browser----
+01/06/2015 16:07:28 rootLogger ----Checking Runmode of Testdata:Forgot_Password13----
+01/06/2015 16:07:28 rootLogger ----Executing Testcase---- :Forgot_Password13----
+01/06/2015 16:07:59 rootLogger ---Closing Web browser---
+01/06/2015 16:08:02 rootLogger ----Checking the Runmode of :Forgot_Password14----
+01/06/2015 16:08:02 rootLogger ----Test is excuteable----
+01/06/2015 16:08:03 rootLogger ----Launching Web Browser----
+01/06/2015 16:08:03 rootLogger ----Launching Web Browser----
+01/06/2015 16:08:04 rootLogger ----Checking Runmode of Testdata:Forgot_Password14----
+01/06/2015 16:08:04 rootLogger ----Executing Testcase---- :Forgot_Password14----
+01/06/2015 16:09:38 rootLogger ---Closing Web browser---
+01/06/2015 16:09:41 rootLogger ----Checking the Runmode of :Forgot_Password15----
+01/06/2015 16:09:41 rootLogger ----Test is excuteable----
+01/06/2015 16:09:41 rootLogger ----Launching Web Browser----
+01/06/2015 16:09:41 rootLogger ----Launching Web Browser----
+01/06/2015 16:09:42 rootLogger ----Checking Runmode of Testdata:Forgot_Password15----
+01/06/2015 16:09:42 rootLogger ----Executing Testcase---- :Forgot_Password15----
+01/06/2015 16:10:54 rootLogger ---Closing Web browser---

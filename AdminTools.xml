@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Account Information Edit" verbose="3">
-	<!--<test name="Profile Edit-1">
+	<test name="Profile Edit-1">
 	     <parameter name="browser" value="chrome"/>
 	        <classes>
 				<class name="com.NFHS.TestSuites.AdminDashBoardSuite.MA_AccountEdit1"/>
@@ -13,9 +13,9 @@
 		<classes>
 			<class name="com.NFHS.TestSuites.AdminDashBoardSuite.MA_FulfillmentTool"/>
 		</classes>
-	</test>-->
+	</test>
 
-	<!--<test name="AdminAddhomeScreenMessage">
+	<test name="AdminAddhomeScreenMessage">
 		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="com.NFHS.TestSuites.AdminDashBoardSuite.HomeScreen1"/>
@@ -29,26 +29,25 @@
 	</test>
 
 
-	<test name="AdminEdithomeScreenMessage">
+	<test name="AdminEdithomeScreenMessage1">
 		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="com.NFHS.TestSuites.AdminDashBoardSuite.HomeScreen3"/>
 		</classes>
-	</test>-->
+	</test>
 
-<!--	<test name="AdminEdithomeScreenMessage">
+	<test name="AdminEdithomeScreenMessage">
 		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="com.NFHS.TestSuites.AdminDashBoardSuite.SlideTool1"/>
 		</classes>
-	</test>-->
-<!--
+	</test>
 	<test name="AdminAddSlider">
 		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="com.NFHS.TestSuites.AdminDashBoardSuite.SlideTool1"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="AdminDeleteSlider">
 		<parameter name="browser" value="chrome"/>

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="jar1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar/poi-ooxml-schemas-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/java-mail-1.4.4.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/jar/poi-scratchpad-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/selenium-java-client-driver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/poi-excelant-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/poi-ooxml-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/selenium-server-standalone-2.41.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/javax.activation.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/jar/xslt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/SaxonLiaison.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/guice-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/poi-examples-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/xmlbeans-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/saxon-8.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/itext-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/poi-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/testng-6.8.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/poi-excelant-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/selenium-server-standalone-2.41.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/poi-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/SaxonLiaison.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/saxon-8.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/poi-examples-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/itext-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/java-mail-1.4.4.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/poi-ooxml-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/xslt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/xmlbeans-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/guice-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/selenium-java-client-driver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/javax.activation.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/poi-ooxml-schemas-3.10-FINAL-20140208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/testng-6.8.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NFHSLearn/jar/poi-scratchpad-3.10-FINAL-20140208.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

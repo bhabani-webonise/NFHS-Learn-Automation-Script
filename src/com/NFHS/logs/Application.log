@@ -1,8 +1,7 @@
-26/05/2015 12:44:11 rootLogger ----Checking run mode of suite----
-26/05/2015 12:44:13 rootLogger ----Checking the Runmode of :Forgot_Password8----
-26/05/2015 12:44:14 rootLogger ----Test is excuteable----
-26/05/2015 12:44:15 rootLogger ----Launching Web Browser----
-26/05/2015 12:44:15 rootLogger ----Launching Web Browser----
-26/05/2015 12:44:18 rootLogger ----Checking Runmode of Testdata:Forgot_Password8----
-26/05/2015 12:44:18 rootLogger ----Executing Testcase---- :Forgot_Password8----
-26/05/2015 12:46:07 rootLogger ---Closing Web browser---
+04/06/2015 11:52:54 rootLogger ----Checking run mode of suite----
+04/06/2015 11:52:58 rootLogger ----Checking the Runmode of :Registration_Account_Setup7----
+04/06/2015 11:52:59 rootLogger ----Test is excuteable----
+04/06/2015 11:53:01 rootLogger ----Launching Web Browser----
+04/06/2015 11:53:02 rootLogger ----Launching Web Browser----
+04/06/2015 11:53:05 rootLogger ----Checking Runmode of Testdata:Registration_Account_Setup7----
+04/06/2015 11:53:05 rootLogger ----Executing Testcase---- :Registration_Account_Setup7----
